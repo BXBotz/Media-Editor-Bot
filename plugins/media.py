@@ -71,7 +71,7 @@ async def media(client, message):
      except Exception as e:
            await message.reply_text(e)
            return
-     await message.reply_text('**successfully Edited the media**')
+     await message.reply_text('**✅ Media Edited Successfully**')
 
          
    

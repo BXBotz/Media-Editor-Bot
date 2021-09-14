@@ -1,9 +1,9 @@
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-START_MSG = """**Hi {}
+START_MSG = """**Hai {},
   
-I am an Media Editor bot ...
+I am simple Media Editor bot.
 
 You can edit document,video,gif,audio,photo etc..
 

@@ -46,3 +46,10 @@ async def help(client, message):
         disable_web_page_preview=True,
         reply_to_message_id=message.message_id
     )    
+
+START_BUTTONS = InlineKeyboardMarkup(
+              [[
+              InlineKeyboardButton("🤖 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://t.me/BX_Botz"),
+              InlineKeyboardButton("🎨 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/BXSUPPORT")
+              ]]
+        )
